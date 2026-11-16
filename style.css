@@ -1,0 +1,104 @@
+
+/* Styles the entire page */
+body {
+    margin: 0; /* Removes default page margins */
+    padding: 20px; /* Adds space around the page */
+    font-family: Arial, sans-serif; /* Sets the font */
+    background-color: #F4F0F7; /* Sets a light purple background */
+    color: #333333; /* Sets the main text color */
+}
+
+/* Styles the main form container */
+.form-container {
+    background-color: white; /* Sets a white background */
+    max-width: 450px; /* Limits the container width */
+    margin: 80px auto; /* Centers the container */
+    padding: 40px; /* Adds space inside the container */
+    border-radius: 15px; /* Creates rounded corners */
+    text-align: center; /* Centers the text */
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+}
+
+/* Styles the main product heading */
+h1 {
+    color: #471869; /* Sets the purple color */
+    font-size: 38px; /* Sets the heading size */
+    margin-bottom: 10px; /* Adds space below the heading */
+}
+
+/* Styles the offer heading */
+h2 {
+    color: #471869; /* Sets the purple color */
+    font-size: 24px; /* Sets the offer heading size */
+    margin-bottom: 20px; /* Adds space below the heading */
+}
+
+/* Styles the product description */
+.description {
+    font-size: 16px; /* Sets the paragraph size */
+    line-height: 1.6; /* Improves text readability */
+    color: #666666; /* Sets a soft gray text color */
+    margin-bottom: 25px; /* Adds space below the paragraph */
+    text-align: left; /* Aligns the description to the left */
+}
+
+/* Styles the input labels */
+label {
+    display: block; /* Places the label on its own line */
+    text-align: left; /* Aligns the label to the left */
+    font-weight: bold; /* Makes the label bold */
+    margin-bottom: 8px; /* Adds space below the label */
+}
+
+/* Styles the input fields */
+input {
+    width: 100%; /* Makes the input fill the available width */
+    padding: 12px; /* Adds space inside the input */
+    border: 1px solid #CCCCCC; /* Adds a light gray border */
+    border-radius: 8px; /* Rounds the input corners */
+    font-size: 15px; /* Sets the input text size */
+    box-sizing: border-box; /* Includes padding in the total width */
+    margin-bottom: 20px; /* Adds space below the input */
+}
+
+/* Styles the subscription button */
+button {
+    width: 100%; /* Makes the button fill the container */
+    background-color: #471869; /* Sets the purple color */
+    color: white; /* Makes the button text white */
+    padding: 14px; /* Adds space inside the button */
+    border: none; /* Removes the default border */
+    border-radius: 8px; /* Creates rounded corners */
+    font-size: 17px; /* Sets the button text size */
+    font-weight: bold; /* Makes the button text bold */
+    cursor: pointer; /* Changes the cursor when hovering */
+    transition: background-color 0.3s ease; /* Creates a smooth transition */
+}
+
+/* Changes the button color when hovering */
+button:hover {
+    background-color: #65318A; /* Makes the button lighter purple */
+}
+
+/* Styles the footer message */
+.footer-text {
+    color: #888888; /* Sets a soft gray color */
+    font-size: 13px; /* Sets a smaller text size */
+    margin-top: 20px; /* Adds space above the message */
+}
+
+/* Adjusts the form for smaller screens */
+@media (max-width: 600px) {
+    .form-container {
+        margin: 30px auto; /* Reduces the top spacing */
+        padding: 25px; /* Reduces internal spacing */
+    }
+
+    h1 {
+        font-size: 32px; /* Reduces the heading size */
+    }
+
+    h2 {
+        font-size: 21px; /* Reduces the offer heading size */
+    }
+}
